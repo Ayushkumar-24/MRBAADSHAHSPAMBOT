@@ -1,6 +1,3 @@
-# Mighty X Spam - Spam Userbots
-# @MightyXSpam | @MightyXSupport
-
 import os
 import sys
 import random
