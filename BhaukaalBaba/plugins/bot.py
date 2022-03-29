@@ -1,6 +1,3 @@
-# Mighty X Spam !! || @MightyXSpam
-# Kang With Credits Else Gay Confirmed ✓
-
 import asyncio
 import os
 from pathlib import Path
@@ -15,8 +12,8 @@ from telethon.tl import functions
 from telethon.tl.functions.account import UpdateProfileRequest
 from telethon.tl.functions.photos import DeletePhotosRequest, UploadProfilePhotoRequest, GetUserPhotosRequest
 from telethon.tl.functions.account import UpdateUsernameRequest
-from BhaukaalBaba import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, DEV
-from BhaukaalBaba.utils import edit_or_reply
+from kaalspam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, DEV
+from kaalspam.utils import edit_or_reply
 from .. import CMD_HNDLR as hl
 from telethon import events
 from telethon.tl.types import Channel, Chat, InputPhoto, User
@@ -75,7 +72,7 @@ async def name(e):
             try:
                 await e.client(functions.account.UpdateProfileRequest(first_name=firstname))
                 event = await e.reply(text, parse_mode=None, link_preview=None )
-                await event.edit("Changed Name Successfully !! ✅")
+                await event.edit("Changed Name Successfully by kaalspam !! ✅")
             except Exception as e:
                 await print(str(e))   
         else:
@@ -135,7 +132,7 @@ async def _(e):
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
                 event = await e.reply(text, parse_mode=None, link_preview=None )
                 await asyncio.sleep(0.7)
-                await event.edit("Changed Bio Successfully !! ✅")
+                await event.edit("Changed Bio Successfully by kaalspam !! ✅")
             except Exception as e:
                 await print(str(e))   
         else:
@@ -213,7 +210,7 @@ async def stats(event):
             else:
                 print(d)
          
-        mighty += f"**HERE IS YOUR BHAUKAAL STATS**\n\n"
+        mighty += f"**HERE IS YOUR KAALSPAM STATS**\n\n"
         mighty += f"`Users :`\t**{u}**\n"
         mighty += f"`Groups :`\t**{g}**\n"
         mighty += f"`Super Groups :`\t**{c}**\n"
@@ -296,7 +293,7 @@ async def pfp(event):
             except Exception as e:
                 await event.edit(f"**Error :**\n`{e}`")
             else:
-                await event.edit("Changed Profile Photo Successfully !! ✅")
+                await event.edit("Changed Profile Photo Successfully by kaalspam !! ✅")
     try:
         os.remove(photo)
     except Exception as e:
@@ -370,5 +367,5 @@ async def remove_profilepic(delpfp):
         for sep in pfplist.photos
     ]
     await delpfp.client(DeletePhotosRequest(id=input_photos))
-    await delpfp.reply(f"Successfully Deleted {len(input_photos)} Profile Photo(s) !! ✅")
+    await delpfp.reply(f"Successfully Deleted {len(input_photos)} Profile Photo(s) by kaalspam !! ✅")
 
