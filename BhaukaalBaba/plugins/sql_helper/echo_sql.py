@@ -1,6 +1,6 @@
 from sqlalchemy import Column, String
 
-from BhaukaalBaba.plugins.sql_helper import BASE, SESSION
+from kaalspam.plugins.sql_helper import BASE, SESSION
 
 
 class ECHOSQL(BASE):
