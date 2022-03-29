@@ -1,11 +1,11 @@
-# MightyXSpam
+# kaalSpam
 
 import asyncio
 import sys
 from sys import argv
 import glob
 from pathlib import Path
-from BhaukaalBaba.utils import load_plugins
+from kaalspam.utils import load_plugins
 import logging
 from telethon import events
 from . import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40
@@ -14,7 +14,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 
-path = "BhaukaalBaba/plugins/*.py"
+path = "kaalspam/plugins/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as a:
@@ -22,7 +22,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("BhaukaalBaba Successfully Deployed !!")
+print("kaalspam Successfully Deployed !!")
 
 if len(argv) not in (1, 3, 4):
     try:
