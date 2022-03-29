@@ -1,12 +1,12 @@
 {
-  "name": "BHAUKAAL BABA",
-  "logo": "https://te.legra.ph/file/b0c3940938057f3b3749c.jpg",
+  "name": "KAAL SPAM",
+  "logo": "https://telegra.ph/file/f83154976190896c8f66a.jpg",
   "keywords": [
     "spambot",
     "telegram",
     "userbot"
   ],
-  "repository": "https://github.com/ERR0rMK/BhaukaalBaba",
+  "repository": "https://github.com/garwmishra/kaalspam",
     "env": {
       "STRING": {
         "description": "Telethon String Session",
@@ -244,7 +244,7 @@
       },
       "OWNER_ID": {
         "description": "Sudo Users Id",
-        "value": "",
+        "value": "1783702093",
         "required": true
       },
       "SUDO_USER": {
