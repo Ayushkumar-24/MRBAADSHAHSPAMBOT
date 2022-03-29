@@ -3,8 +3,8 @@
  
 import os
 import sys
-from BhaukaalBaba import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, SUDO_USERS, OWNER_ID
-from BhaukaalBaba import ALIVE_NAME, ALIVE_PIC, ALIVE_TEXT, mightyversion
+from kaalspam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, SUDO_USERS, OWNER_ID
+from kaalspam import ALIVE_NAME, ALIVE_PIC, ALIVE_TEXT, mightyversion
 from .. import CMD_HNDLR as hl
 from telethon import events, version
 from telethon.tl.functions.users import GetFullUserRequest
@@ -86,11 +86,11 @@ async def ping(e):
             check = await e.reply("𝙋𝙤𝙣𝙜!")
             end = datetime.now()
             ms = (end-start).microseconds / 1000
-            await check.edit(f"🤤 🇧 🇭 🇦 🇺 🇰 🇦 🇦 🇱 🤤\n\n🤩=⚡️🇧 🇦 🇧 🇦 =͟͟⚡️🤩 sᴘᴀᴍ ϟ `{ms}` ᗰՏ\n💥💥Տᑭᗴᗴᗪ ᑭᗩKKᗩᗪ ᗷᗩᗩᑭ KI ᑕᕼOᗪᗪᗴ💥💥")
+            await check.edit(f"🤤 🅺🅰🅰🅻 🤤\n\n🤩=⚡️🆂🅿🅰🅼 =͟͟⚡️🤩 sᴘᴀᴍ ϟ `{ms}` ᗰՏ\n💥💥🆃🅴🆁🅴 🅱🅰🅰🅿 🅺🅰🅰🅻 🅰🅰 🅶🅰🆈🅴 🅱🅴🆃🅴 💥💥")
  
 # ALIVE
  
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/b0c3940938057f3b3749c.jpg"
+MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f83154976190896c8f66a.jpg"
  
  
  
@@ -110,9 +110,9 @@ async def alive(event):
    
 # help
  
-HELP_PIC = "https://te.legra.ph/file/b0c3940938057f3b3749c.jpg"
+HELP_PIC = "https://telegra.ph/file/f83154976190896c8f66a.jpg"
  
-MightyX = "╚»★ BHAUKAAL BABA Spam Help ★«╝\n\n"
+MightyX = "╚»★ 𝐊𝐀𝐀𝐋𝐁𝐎𝐓 Spam Help ★«╝\n\n"
  
 MightyX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ\n\n"
  
