@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/f83154976190896c8f66a.jpg"width="350"" alt="BhaukaalBaba Logo">
 </p>
 <h1 align="center">
-  <b>⚠️ KAALSPAM ⚠️</b>
+  <b>🔥 KAALSPAM 🔥</b>
 </h1>
 
 # Deploy To Heroku
