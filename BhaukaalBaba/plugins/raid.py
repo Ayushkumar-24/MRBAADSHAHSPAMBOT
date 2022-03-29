@@ -6,7 +6,7 @@ import random
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from BhaukaalBaba import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, SUDO_USERS
+from kaalspam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, SUDO_USERS
 from resources.data import RAID, REPLYRAID, MightyX, MightyX1
 from .. import CMD_HNDLR as hl
 
@@ -218,7 +218,7 @@ async def _(e):
                 nobi = que.get(user_id)
                 nobita = [user_id]
                 nobi.append(nobita)
-                text = f"Activated ReplyRaid 🔥"
+                text = f"Activated ReplyRaid by kaalspam 🔥"
                 await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -235,7 +235,7 @@ async def _(e):
                 nobi = que.get(user_id)
                 nobita = [user_id]
                 nobi.append(nobita)
-                text = f"Activated ReplyRaid"
+                text = f"Activated ReplyRaid by kaalspam"
                 await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
@@ -298,7 +298,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid ☑️"
+            text = "De-Activated Reply Raid by kaalspam ☑️"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -309,7 +309,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "De-Activated Reply Raid by kaalspam"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
