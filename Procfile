@@ -1,1 +1,1 @@
-Mig: python -m BhaukaalBaba
+Mig: python -m kaalspam
