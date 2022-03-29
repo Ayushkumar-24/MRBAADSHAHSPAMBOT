@@ -1,5 +1,4 @@
-# Mighty X Spam - Spam Userbots 
-# @MightyXSpam | Keep Credits Madafaka !!
+
  
 import os
 import sys
