@@ -1,8 +1,3 @@
-# By - LΣGΣΠD | @Hey_LEGEND
-# For MightyXSpam | @MightyXSpam
-# From Kangers Import Madafaka
-#Keep Credits Madafaka !!
-
 import os
 import sys
 import random
@@ -10,7 +5,7 @@ from os import execl
 import asyncio
 import telethon.utils
 from requests import get
-from BhaukaalBaba import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, DEV
+from kaalspam import Mig, Mig2, Mig3, Mig4, Mig5 , Mig6, Mig7, Mig8, Mig9, Mig10, Mig11, Mig12, Mig13, Mig14, Mig15, Mig16, Mig17, Mig18, Mig19, Mig20, Mig21, Mig22, Mig23, Mig24, Mig25, Mig26, Mig27, Mig28, Mig29, Mig30, Mig31, Mig32, Mig33, Mig34, Mig35, Mig36, Mig37, Mig38, Mig39, Mig40, DEV
 from .. import CMD_HNDLR as hl
 from telethon.tl import functions, types
 from telethon import events
@@ -123,14 +118,14 @@ async def get_users(event):
               return await legend.edit("`Sorry, Can't Add Users Here..!`")    
     s = 0 ; f = 0 ; error = 'None'   
   
-    await legend.edit("⚡ BhaukaalBaba ⚡\n\n🔥 **Terminal Status** 🔥\n\n`Collecting Users..!! ✨`")
+    await legend.edit("⚡ kaal ⚡\n\n🔥 **Terminal Status** 🔥\n\n`Collecting Users..!! ✨`")
     async for user in event.client.iter_participants(legendop.full_chat.id):
                 try:
                     if error.startswith("Too"):
                         return await legend.edit(f"**Terminal Finished With Error :**\n(`May Got Limit Error From Telethon Please Try Again Later`)\n**Error** : \n`{error}`\n\n🎉 Invited `{s}` People \n⚠️ Failed To Invite `{f}` People")
                     await event.client(functions.channels.InviteToChannelRequest(channel=chat,users=[user.id]))
                     s = s + 1                                                    
-                    await legend.edit(f"⚡ BhaukaalBaba ⚡\n\n🔥 **Terminal Running...** 🔥\n\n🎉 Invited `{s}` People \n⚠️ Failed To Invite `{f}` People\n\n**‼️LastError :** `{error}`")                
+                    await legend.edit(f"⚡ kaal ⚡\n\n🔥 **Terminal Running...** 🔥\n\n🎉 Invited `{s}` People \n⚠️ Failed To Invite `{f}` People\n\n**‼️LastError :** `{error}`")                
                 except Exception as e:
                     error = str(e) ; f = f + 1             
-    return await legend.edit(f"⚡ BhaukaalBaba ⚡\n\n🔥 **Terminal Finished** 🔥\n\n✨ Successfully Invited `{s}` People \n❌ Failed To Invite `{f}` People")
+    return await legend.edit(f"⚡ kaal ⚡\n\n🔥 **Terminal Finished** 🔥\n\n✨ Successfully Invited `{s}` People \n❌ Failed To Invite `{f}` People")
