@@ -182,7 +182,7 @@ async def help(event):
 @Mig40.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "🇺 ᖴᖴ 🇩 OᖇᗴᗰOᑎ 🇰 I 🇬 ᗩᑎᗪ 🇩 ᗴKᕼ 🇰 ᗴ 🇦 Tᗩ 🇭 🇺"
+        text = "🇷 𝗨𝗞 𝗝𝗔𝗔 𝗧𝗘𝗟 𝗟𝗚𝗔𝗡𝗘 𝗗𝗘 𝗙𝗜𝗥 𝗟𝗘𝗧𝗔 🇭 𝗨"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Mig.disconnect()
