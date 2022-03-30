@@ -89,7 +89,7 @@ async def ping(e):
  
 # ALIVE
  
-MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f83154976190896c8f66a.jpg"
+MIG_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/f46ef5ff0918f8026e78c.jpg"
  
  
  
@@ -103,7 +103,7 @@ async def alive(event):
         end = datetime.now()
         ms = (end-start).microseconds / 1000
         await check.delete()
-        await Mig.send_file(event.chat_id, MIG_PIC, caption=f"#🇧 ᕼᗩᑌKᗩᒪ 🇴 ᑎ 🇫 Iᖇᗴ💥🔥💥🔥💥🔥💥")
+        await Mig.send_file(event.chat_id, MIG_PIC, caption=f"#🇧 𝗔𝗔𝗗𝗦𝗛𝗔𝗛♕︎ 🇴 ᑎ 🇫 Iᖇᗴ💥🔥💥🔥💥🔥💥")
         
         
    
@@ -182,7 +182,7 @@ async def help(event):
 @Mig40.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "🇺 ᖴᖴ 🇩 OᖇᗴᗰOᑎ 🇰 I 🇬 ᗩᑎᗪ 🇩 ᗴKᕼ 🇰 ᗴ 🇦 Tᗩ 🇭 🇺"
+        text = "𝐑𝐔𝐊 𝐉𝐀𝐀 𝐌𝐄𝐊𝐎 𝐏𝐑𝐎𝐓𝐄𝐂𝐓𝐈𝐎𝐍 𝐋𝐆𝐀𝐍𝐄 𝐃𝐄🤤🤣"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Mig.disconnect()
